@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FirstAngularProject-app';
+
+  value= 'input';
+
+  valueTwo='two_Way_binding';
+  
+  test_click(){
+    alert("button clicked")
+  };
+
+  Two_way(){
+    alert(this.valueTwo)
+  }
+
+  Parent_To_Child="Parent to Child Component"
+
+
 }
