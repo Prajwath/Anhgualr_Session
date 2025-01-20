@@ -16,4 +16,5 @@
 <button (click)="Two_way()">2_way_binding</button>
 
 <!-- This is Known AS Input Decorator Where We Are Calling "Parent To Child" Using Property Binding of Child_To_Parent-->
-<app-first-component [Child_To_Parent]="Parent_To_Child"></app-first-component>
+ <!-- and PushData is even listener  -->
+<app-first-component [Child_To_Parent]="Parent_To_Child" (push_data)="PushData($event)"></app-first-component>

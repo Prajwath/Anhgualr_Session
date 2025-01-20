@@ -11,7 +11,7 @@ export class AppComponent {
   value= 'input';
 
   valueTwo='two_Way_binding';
-  
+
   test_click(){
     alert("button clicked")
   };
@@ -21,6 +21,13 @@ export class AppComponent {
   }
 
   Parent_To_Child="Parent to Child Component"
+
+
+//parent to child and showin it on and event listener
+  PushData(data : any){
+    alert(data)
+
+  }
 
 
 }
